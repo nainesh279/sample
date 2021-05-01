@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-navigation-link-widget-ang</name>
+        <properties>
+            <property name="label" type="string">
+                <value>Universal Navigation Link Widget</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Universal Navigation Link Widget</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="classId" label="Angular Class ID" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>NavigationLinkWidgetComponent</value>
+            </property>
+            <property name="rootLink" label="Root link" viewHint="link-ref,admin" type="string">
+                <value></value>
+            </property>
+            <property name="depth" label="Nested navbar depth" viewHint="text-input,admin" type="string">
+                <value>3</value>
+            </property>
+            <property name="relativeRoot" label="Relative root" viewHint="text-input,admin" type="string">
+                <value>1</value>
+            </property>
+            <property name="layoutType" label="Navbar layout type" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>horizontal</value>
+            </property>
+            <property name="customNavClasses" label="Navbar custom classes" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">universal</tag>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">universal-angular</tag>
+            <tag type="regular">ang</tag>
+            <tag type="regular">navigation-link</tag>
+        </tags>
+    </widget>
+</catalog>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-payord-a2a-external-account-manager-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>PayordA2aExternalAccountManagerWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Manage external accounts for A2A transfers</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Angular PayordA2aExternalAccountManagerWidget Widget</value>
+            </property>
+            <property label="Number of miliseconds to dismiss the notification" name="dismissMessageTime" viewHint="text-input,admin" type="string">
+                <value>3000</value>
+            </property>
+            <property name="output.makeTransfer" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="currencies" label="Comma separated list of available currencies" viewHint="text-input,admin" type="string">
+                <value>USD</value>
+            </property>
+            <property name="connectAccountEventTrigger" label="Initiate Connect account event" viewHint="admin,designModeOnly" type="string">
+                <value>bb.event.initiate.connect.account</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>2.0.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

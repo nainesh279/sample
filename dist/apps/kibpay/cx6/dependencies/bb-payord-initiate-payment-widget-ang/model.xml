@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-payord-initiate-payment-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>PayordInitiatePaymentWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Initiate payment</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Angular PayordInitiatePayment Widget</value>
+            </property>
+            <property name="recurring" label="Re-occurring payment orders" viewHint="checkbox,admin" type="string">
+                <value>true</value>
+            </property>
+            <property name="minOccurs" label="Re-occurring payment - minimum occurrences" viewHint="text-input,admin" type="string">
+                <value>2</value>
+            </property>
+            <property name="maxOccurs" label="Re-occurring payment - maximum occurrences" viewHint="text-input,admin" type="string">
+                <value>200</value>
+            </property>
+            <property name="urgent" label="Urgent payments enabled" viewHint="checkbox,admin" type="string">
+                <value>false</value>
+            </property>
+            <property name="currencies" label="Comma separated list of available currencies" viewHint="text-input,admin" type="string">
+                <value>EUR</value>
+            </property>
+            <property name="paymentType" label="Type of the payment order" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="resourceName" label="Access control resource" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="businessFunction" label="Access control business function" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="privilege" label="Access control privilege" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="output.editPaymentCompleted" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="paymentOrderCreatedEventName" label="Payment Order created event" viewHint="admin,designModeOnly" type="string">
+                <value>bb.event.initiate-payment.payment-order.created</value>
+            </property>
+            <property name="creditorAccountType" label="Creditor account number format" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>IBAN</value>
+            </property>
+            <property name="enableCreditorAccountType" label="Enable creditor account type selection (Checking/Savings)" viewHint="checkbox,admin" type="string">
+                <value>false</value>
+            </property>
+            <property name="enableBankBranchCode" label="Show bank branch code field" viewHint="checkbox,admin" type="string">
+                <value>false</value>
+            </property>
+            <property name="bankBranchCodeFieldLabel" label="Label for bank branch code form field" viewHint="text-input,admin" localizable="true" type="string">
+                <value>Bank branch code</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="a2aPaymentType" label="Type of the external a2a payment" viewHint="text-input,admin" type="string">
+                <value>EXTERNAL_A2A</value>
+            </property>
+            <property name="enableConnectedAccounts" label="Enable connected accounts" viewHint="text-input,admin" type="string">
+                <value>false</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.1.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">payment order</tag>
+        </tags>
+    </widget>
+</catalog>

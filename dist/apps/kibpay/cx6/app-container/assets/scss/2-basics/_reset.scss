@@ -1,0 +1,14 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "sans-serif";
+  font-size: $font-size-default;
+  font-weight: $font-weight-regular;
+  line-height: 24px;
+  color: $color-primary; 
+  text-align: left;
+  background-color: $color-background; 
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-payord-omni-payment-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>PayordOmniPaymentWidgetAngComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Initiate omni payment</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Angular PayordOmniPaymentWidgetAng Widget</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>2.4.3</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

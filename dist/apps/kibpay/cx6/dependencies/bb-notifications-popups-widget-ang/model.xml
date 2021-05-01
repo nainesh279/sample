@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-notifications-popups-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>NotificationsPopupsWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>View sticky and popup notifications</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>View sticky and popup notifications</value>
+            </property>
+            <property name="pollingInterval" label="Polling interval (seconds, 0 - stops execution of notifications)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>15</value>
+            </property>
+            <property name="allowedRoutes" label="String of allowed routes (conversation-view, arrangement-view, transaction-view, party-view, ... ,)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>conversation-view, arrangement-view, transaction-view, party-view, payment-view</value>
+            </property>
+            <property name="origins" label="Comma-separated list of notifications origins to process (empty for all)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="severityLevels" label="Comma-separated list of notifications severity levels to process (empty for all)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="output.notificationRouting" label="Emits routing metadata" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>memory</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>2.0.2</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

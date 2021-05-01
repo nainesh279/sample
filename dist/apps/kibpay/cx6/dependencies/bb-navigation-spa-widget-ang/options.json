@@ -1,0 +1,14 @@
+{
+  "options": {
+    "navigationType": [
+      {
+        "value": "vertical",
+        "label": "Vertical Navigation"
+      },
+      {
+        "value": "horizontal",
+        "label": "Horizontal Navigation"
+      }
+    ]
+  }
+}

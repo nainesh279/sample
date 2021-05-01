@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-income-spending-analysis-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>IncomeSpendingAnalysisWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>View income and spending by category</value>
+            </property>
+            <property label="Analysis type" name="analysisIndicator" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>DBIT</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>8.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">PFM</tag>
+            <tag type="regular">capability</tag>
+        </tags>
+    </widget>
+</catalog>

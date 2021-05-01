@@ -1,0 +1,14 @@
+{
+  "options": {
+    "creditorAccountType": [
+      {
+        "value": "IBAN",
+        "label": "IBAN"
+      },
+      {
+        "value": "BBAN",
+        "label": "BBAN"
+      }
+    ]
+  }
+}

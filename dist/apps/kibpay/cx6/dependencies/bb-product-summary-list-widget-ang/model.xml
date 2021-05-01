@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-product-summary-list-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>ProductSummaryListWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>View retail account list</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="output.selectedAccount" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="showIcons" label="Show Icons" viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>true</value>
+            </property>
+            <property name="maskIndicator" label="Mask Account Numbers" viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>false</value>
+            </property>
+            <property name="event.refreshAccountsList" label="Event to Referesh the Accounts List" viewHint="text,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.1.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">product-summary</tag>
+        </tags>
+    </widget>
+</catalog>

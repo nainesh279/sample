@@ -1,0 +1,52 @@
+<div class="payment-container">
+  <div class="main-container knet-container" [ngClass]="{'full-height': !showSubmit}">
+    <kp-kibpay-loader *ngIf="!isLoaded"></kp-kibpay-loader>
+    <kp-kibpay-logo *ngIf="isLoaded"></kp-kibpay-logo>
+    
+    <div *ngIf="isLoaded">
+      <div class="md-3 sm-hide"></div>
+        <div class="md-6">
+          <!--<div class="success-logo-container">
+            <span class="tick"></span>
+          </div>-->
+          <div class="text-center">
+            <img class="icon-container" *ngIf="paymentInfo.state == AppConstants.CREDITED" [src]="iconSuccess | async" alt="icon-success" />
+            <img class="icon-container" *ngIf="paymentInfo.state != AppConstants.CREDITED" [src]="iconError | async" alt="icon-error" />
+          </div>
+          <p class="header-text success-header-text" *ngIf="paymentInfo.state == AppConstants.CREDITED">Payment successful</p>
+          <p class="header-text" *ngIf="paymentInfo.state == AppConstants.KNET_FAILED">Payment failed</p>
+  
+          <div class="payment-item-container text-center">
+            <ng-container *ngIf="paymentInfo.state == AppConstants.CREDITED">
+              <div (click)="showTransactionDetails = !showTransactionDetails" class="toggle-container">
+                <span class="toggle-text pointer">Transaction details</span>
+                <span class="toggle-anchor" [ngClass]="{'arrow-up': showTransactionDetails}"></span>
+              </div>
+              <div class="form-item-container m-b-16" *ngIf="showTransactionDetails">
+                <div class="form-item text-left">
+                  <label for="SendPaymentTo">Send payment to</label>
+                  <span class="custom-input" *ngIf="paymentInfo && paymentInfo.payeeName">{{paymentInfo.payeeName}}</span>
+                  <span class="custom-input" *ngIf="!(paymentInfo && paymentInfo.payeeName)">-</span>
+                </div>
+          
+                <div class="form-item text-left">
+                  <label for="amount">Amount</label>
+                  <span class="custom-input" *ngIf="paymentInfo && paymentInfo.amount">{{paymentInfo.amount}}
+                    <span *ngIf="paymentInfo.currency">{{paymentInfo.currency}}</span>
+                  </span>
+                  <span class="custom-input" *ngIf="!(paymentInfo && paymentInfo.amount)">-</span>
+                </div>
+          
+                <div class="form-item text-left ">
+                  <label for="SendPaymentTo">Description</label>
+                  <span class="custom-input" *ngIf="paymentInfo && paymentInfo.description">{{paymentInfo.description}}</span>
+                  <span class="custom-input" *ngIf="!(paymentInfo && paymentInfo.description)">-</span>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+        <div class="md-3 sm-hide"></div>
+    </div>
+  </div>
+</div>

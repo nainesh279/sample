@@ -1,0 +1,14 @@
+{
+  "options": {
+    "bb.transaction.paginationType": [
+      {
+        "value": "pagination",
+        "label": "Pagination"
+      },
+      {
+        "value": "load-more",
+        "label": "Load more"
+      }
+    ]
+  }
+}

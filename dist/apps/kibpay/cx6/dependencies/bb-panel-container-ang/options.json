@@ -1,0 +1,30 @@
+{
+  "options": {
+    "appearance": [
+      {
+        "value": "none",
+        "label": "None"
+      },
+      {
+        "value": "card",
+        "label": "Card"
+      },
+      {
+        "value": "card-shadow-1",
+        "label": "Card - shadow level 1"
+      },
+      {
+        "value": "card-shadow-2",
+        "label": "Card - shadow level 2"
+      },
+      {
+        "value": "card-shadow-3",
+        "label": "Card - shadow level 3"
+      },
+      {
+        "value": "card-shadow-4",
+        "label": "Card - shadow level 4"
+      }
+    ]
+  }
+}

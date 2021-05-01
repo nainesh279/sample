@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-notifications-badge-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>NotificationsBadgeWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Notification badge</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Notification badge</value>
+            </property>
+            <property name="unreadCountUpdateInterval" label="Interval to poll server for unread count (seconds)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>15</value>
+            </property>
+            <property name="notificationsMessageLineAmount" label="Amount of lines for message body that will be shown" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>2</value>
+            </property>
+            <property name="pageSize" label="Size of notifications page shown in the popover" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>5</value>
+            </property>
+            <property name="allowedRoutes" label="String of allowed routes (conversation-view, arrangement-view, transaction-view, party-view, ... , )" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>conversation-view, arrangement-view, transaction-view, party-view, payment-view</value>
+            </property>
+            <property name="origins" label="Comma-separated list of notifications origins to process (empty for all)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="severityLevels" label="Comma-separated list of notifications severity levels to process (empty for all)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="output.notificationsSettingsOpened" viewHint="input=text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="output.notificationRouting" label="Emits routing metadata" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>memory</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.0.1</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

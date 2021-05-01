@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-self-enrollment-create-account-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>SelfEnrollmentCreateAccountWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Create online banking account</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="output.complete" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="output.cancel" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="output.login" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.0.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

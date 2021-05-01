@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>progress-tracker-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>ProgressTrackerWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Universal Progress Tracker Widget</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>ProgressTrackerWidget Widget</value>
+            </property>
+            <property name="trackerEventName" label="Progress tracker initiate event name" viewHint="admin,designModeOnly" type="string">
+                <value>bb.event.tracker</value>
+            </property>
+            <property name="trackerCancelEventName" label="Progress tracker destroy event name" viewHint="admin,designModeOnly" type="string">
+                <value>bb.event.tracker.cancel</value>
+            </property>
+            <property name="trackerDestroyEventName" label="Progress tracker destroy event name" viewHint="admin,designModeOnly" type="string">
+                <value>bb.event.tracker.destroy</value>
+            </property>
+            <property name="progressTrackerDismissTime" label="Progress tracker dismiss duration (in seconds)" viewHint="admin,designModeOnly" type="string">
+                <value>5</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">universal</tag>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">universal-angular</tag>
+            <tag type="regular">ang</tag>
+            <tag type="regular">progress-tracker</tag>
+        </tags>
+    </widget>
+</catalog>

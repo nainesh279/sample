@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Image Collection",
+  "description": "Image Collection Structured Content.",
+  "type": "object",
+  "definitions": {
+    "backgroundSize": {
+      "enum": [
+        "cover",
+        "contain",
+        "auto"
+      ],
+      "default": "cover"
+    },
+    "backgroundPositionX": {
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "center"
+    },
+    "backgroundPositionY": {
+      "enum": [
+        "top",
+        "center",
+        "bottom"
+      ],
+      "default": "center"
+    },
+    "backgroundRepeat": {
+      "enum": [
+        "no-repeat",
+        "repeat",
+        "repeat-x",
+        "repeat-y"
+      ],
+      "default": "no-repeat"
+    },
+    "background": {
+      "title": "Background",
+      "type": "object",
+      "properties": {
+        "image": {
+          "title": "Background image",
+          "type": "string",
+          "metadata": {
+            "renderingHint": "image"
+          }
+        },
+        "size": {
+          "title": "Background size",
+          "$ref": "#/definitions/backgroundSize"
+        },
+        "positionX": {
+          "title": "Background position X",
+          "$ref": "#/definitions/backgroundPositionX"
+        },
+        "positionY": {
+          "title": "Background position Y",
+          "$ref": "#/definitions/backgroundPositionY"
+        },
+        "repeat": {
+          "title": "Background repeat",
+          "$ref": "#/definitions/backgroundRepeat"
+        }
+      },
+      "required": [
+        "image",
+        "size",
+        "positionX",
+        "positionY",
+        "repeat"
+      ]
+    }
+  },
+  "properties": {
+    "backgrounds": {
+      "title": "Background image collection",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/background"
+      },
+      "minItems": 1
+    }
+  }
+}

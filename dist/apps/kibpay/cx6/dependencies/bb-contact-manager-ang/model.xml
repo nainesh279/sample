@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-contact-manager-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>ContactManagerWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Manage contacts</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Angular Contact Manager WC3 Widget</value>
+            </property>
+            <property name="showAvatar" label="Display avatars" viewHint="text-input,manager" type="string">
+                <value>true</value>
+            </property>
+            <property name="newContact" label="Enable the creation of new contacts" viewHint="text-input,admin,manager" type="string">
+                <value>true</value>
+            </property>
+            <property name="pageSize" label="Number of contacts per page" viewHint="text-input,manager" type="string">
+                <value>5</value>
+            </property>
+            <property label="Max. number of navigation pages" name="maxNavPages" viewHint="text-input,admin" type="string">
+                <value>3</value>
+            </property>
+            <property label="Pagination type (pagination, load-more)" name="paginationType" viewHint="text-input,admin" type="string">
+                <value>pagination</value>
+            </property>
+            <property label="Account number format (IBAN, BBAN)" name="accountType" viewHint="text-input,admin" type="string">
+                <value>IBAN</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">wc3</tag>
+        </tags>
+    </widget>
+</catalog>

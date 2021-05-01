@@ -1,0 +1,36 @@
+{
+  "options": {
+    "layoutType": [
+      {
+        "value": "fluid",
+        "label": "Fluid Layout"
+      },
+      {
+        "value": "fixed",
+        "label": "Fixed Layout"
+      }
+    ],
+    "viewType": [
+      {
+        "value": "PageLayout",
+        "label": "Page Layout"
+      }
+    ],
+    "contentLayout": [
+      {
+        "value": "single",
+        "label": "Single column"
+      }
+    ],
+    "navigationType": [
+      {
+        "value": "vertical",
+        "label": "Sidebar Navigation"
+      },
+      {
+        "value": "horizontal",
+        "label": "Horizontal Navigation"
+      }
+    ]
+  }
+}

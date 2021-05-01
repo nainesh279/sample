@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <container>
+        <name>bb-mega-menu-navigation-container-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>MegaMenuNavigationContainerComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Mega Menu Navigation Container</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>MegaMenuNavigationContainer</value>
+            </property>
+            <property name="child.amountToCreate" viewHint="" type="string">
+                <value>10</value>
+            </property>
+            <property name="child.extendedItemName" type="string">
+                <value>bb-panel-container-ang</value>
+            </property>
+            <property name="mainNavigation" label="Main Navigation" type="linkRef" viewHint="link-ref,admin,designModeOnly">
+                <value></value>
+            </property>
+            <property name="secondaryNavigation" label="Secondary Navigation" type="linkRef" viewHint="link-ref,admin,designModeOnly">
+                <value></value>
+            </property>
+            <property name="mainContainer" label="Main Container" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="secondaryContainer" label="Secondary Container" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="displayDescription" label="Display link descriptions" viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>true</value>
+            </property>
+            <property name="displayIcon" label="Display icons" viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>true</value>
+            </property>
+            <property name="displayExpanded" label="Display submenu arrows" viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>true</value>
+            </property>
+            <property name="depth" label="Menu depth" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>2</value>
+            </property>
+            <property name="cols" label="Number of columns in submenu" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>1</value>
+            </property>
+            <property name="rows" label="Number of links per column" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.0.0</value>
+            </property>
+        </properties>
+    </container>
+</catalog>

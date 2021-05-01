@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <container>
+        <name>kp-kibpay-ang</name>
+        <properties>
+            <property name="render.requires" type="string">
+                <value>render-bb-ssr</value>
+            </property>
+            <property name="render.strategy" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.hbs</value>
+            </property>
+            <property name="versionOfDependencies" type="string" readonly="true">
+                <value>{"data-ang":"3.8.0","foundation-ang":"6.5.1","retail-ang":"3.8.0","ui-ang":"5.19.4","universal-ang":"6.2.0"}</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="title" type="string" readonly="true" label="Title" viewHint="admin,designModeOnly">
+                <value>Kibpay Container</value>
+            </property>
+            <property name="label" type="string">
+                <value>Kibpay Container</value>
+            </property>
+        </properties>
+    </container>
+</catalog>

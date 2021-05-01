@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-saving-goals-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>SavingGoalsWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Manage saving goals</value>
+            </property>
+            <property label="Notification dismiss time" name="notificationDismissTime" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>5</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>5.0.1</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">PFM</tag>
+            <tag type="regular">capability</tag>
+        </tags>
+    </widget>
+</catalog>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-navigation-spa-widget-ang</name>
+        <properties>
+            <property name="label" type="string">
+                <value>Universal Navigation SPA Widget</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Universal Navigation SPA Widget</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="classId" label="Angular Class ID" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>NavigationSpaWidgetComponent</value>
+            </property>
+            <property name="sourceRoutesName" label="Routes source name" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="dividers" label="Dividers" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="header" label="Header name" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="navigationType" label="Navigation Direction" viewHint="admin,designModeOnly" type="string">
+                <value>vertical</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="noOfVisibleLinks" label="Number of visible links before the dropdown" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>3</value>
+            </property>
+            <property name="displayDropdown" label="Whether the dropdown is displayed or not" viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>true</value>
+            </property>
+            <property name="isSticky" label="If navigation widget is sticky" viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>false</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">universal</tag>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">universal-angular</tag>
+            <tag type="regular">ang</tag>
+            <tag type="regular">navigation-spa</tag>
+        </tags>
+    </widget>
+</catalog>

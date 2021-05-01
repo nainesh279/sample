@@ -1,0 +1,21 @@
+<catalog>
+    <contenttype>
+        <name>SC_Unit_PlainText</name>
+        <properties>
+            <property label="Title" name="title" manageable="true">
+                <value type="string">Plain Text</value>
+            </property>
+            <property name="typeDefinitionName" manageable="true">
+                <value type="string">SC_Unit_PlainText</value>
+            </property>
+            <property name="src" manageable="true">
+                <value type="string">$(itemRoot)/assets/SC_Unit_PlainText.json</value>
+            </property>
+        </properties>
+        <tags>
+            <tag blacklist="false" manageable="true" type="regular">structuredcontent</tag>
+            <tag blacklist="false" manageable="true" type="regular">jsonschema</tag>
+            <tag blacklist="false" manageable="true" type="regular">backbase</tag>
+        </tags>
+    </contenttype>
+</catalog>

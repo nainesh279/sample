@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-heading-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>HeadingWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Universal Heading Widget</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property label="Heading type (h1-h6)" name="headingType" viewHint="text-input,admin" type="string">
+                <value>h3</value>
+            </property>
+            <property label="Heading" name="heading" localizable="true" viewHint="text-input,admin" type="string">
+                <value>Heading</value>
+            </property>
+            <property name="headingClasses" label="Heading Classes" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property label="Button classes" name="buttonClasses" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>btn btn-link</value>
+            </property>
+            <property label="Button title" name="buttonTitle" localizable="true" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property label="Custom class name" name="customClassName" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property label="Icon classes" name="iconClasses" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="output.buttonAction" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property label="Use action button event bus" name="useButtonActionEventBus" viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>false</value>
+            </property>
+            <property label="Action button event bus name" name="buttonActionEventBusName" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.1.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">universal</tag>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">universal-angular</tag>
+            <tag type="regular">ang</tag>
+            <tag type="regular">heading</tag>
+        </tags>
+    </widget>
+</catalog>

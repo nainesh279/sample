@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <container>
+        <name>bb-panel-container-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>PanelContainerComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" localizable="true" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Panel Container</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="cssClasses" viewHint="role=manager" type="string">
+                <value>d-block</value>
+            </property>
+            <property name="appearance" label="Appearance" viewHint="select-one,manager" type="string">
+                <value>none</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="navIcon" type="string">
+                <value></value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+    </container>
+</catalog>

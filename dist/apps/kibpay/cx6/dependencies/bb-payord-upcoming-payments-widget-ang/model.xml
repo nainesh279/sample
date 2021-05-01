@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-payord-upcoming-payments-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>PayordUpcomingPaymentsWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Manage upcoming payments</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Angular Upcoming Payments Widget</value>
+            </property>
+            <property name="pageSize" label="Number of payments per page" viewHint="text-input,manager" type="string">
+                <value>50</value>
+            </property>
+            <property label="Number of seconds to dismiss the notification" name="dismissMessageTime" viewHint="text-input,admin" type="string">
+                <value>3</value>
+            </property>
+            <property name="output.editPayment" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="maskAccounts" label="Mask accounts with stars" viewHint="checkbox,admin" type="string">
+                <value>true</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.0.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

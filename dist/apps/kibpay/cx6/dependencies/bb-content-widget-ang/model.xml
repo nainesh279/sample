@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-content-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>ContentWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Universal Content Widget</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="content-defaultContent" label="Content" viewHint="role=manager,input=content-ref,designModeOnly" type="contentRef">
+                <value></value>
+            </property>
+            <property name="imageClasses" label="Image CSS classes" viewHint="role=manager" type="string">
+                <value>img-fluid</value>
+            </property>
+            <property name="feature.contenttype-plain-text" type="string">
+                <value>SC_Unit_PlainText</value>
+            </property>
+            <property name="feature.contenttype-rich-text" type="string">
+                <value>SC_Unit_RichText</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag blacklist="false" manageable="true" type="regular">universal-angular</tag>
+            <tag blacklist="false" manageable="true" type="regular">wc3</tag>
+            <tag type="regular">universal-angular</tag>
+            <tag type="regular">ang</tag>
+            <tag type="regular">content</tag>
+        </tags>
+    </widget>
+</catalog>

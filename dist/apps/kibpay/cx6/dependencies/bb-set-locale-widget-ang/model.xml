@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-set-locale-widget-ang</name>
+        <properties>
+            <property name="label" type="string">
+                <value>Universal Set Locale Widget</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Universal Set Locale Widget</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="classId" label="classId" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>SetLocaleWidgetComponent</value>
+            </property>
+            <property name="placement" label="placement" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>bottom-right</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">universal</tag>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">universal-angular</tag>
+            <tag type="regular">ang</tag>
+            <tag type="regular">set-locale</tag>
+        </tags>
+    </widget>
+</catalog>

@@ -1,0 +1,11 @@
+{
+  "options":{
+    "metricType":[{
+      "value": "transactions",
+      "label": "Transactions"
+    },{
+      "value": "categories",
+      "label": "Categories"
+    }]
+  }
+}

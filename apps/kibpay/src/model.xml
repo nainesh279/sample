@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <container>
+        <name>kp-kibpay-ang</name>
+        <properties>
+            <property name="title" type="string" readonly="true" label="Title" viewHint="admin,designModeOnly">
+                <value>Kibpay Container</value>
+            </property>
+            <property name="label" type="string">
+                <value>Kibpay Container</value>
+            </property>
+        </properties>
+    </container>
+</catalog>

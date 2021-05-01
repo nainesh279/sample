@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <container>
+        <name>bb-deck-container-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>DeckContainerComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Deck Container</value>
+            </property>
+            <property name="ariaLabel" label="aria-label" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="role" label="role" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="outletName" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="disableDefault" label="Disable default route" type="string">
+                <value>false</value>
+            </property>
+            <property name="child.amountToCreate" type="string">
+                <value>3</value>
+            </property>
+            <property name="child.extendedItemName" type="string">
+                <value>bb-panel-container-ang</value>
+            </property>
+            <property name="child.route" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="child.0.title" viewHint="admin,designModeOnly" localizable="true" type="string">
+                <value>Deck 1</value>
+            </property>
+            <property name="child.1.title" viewHint="admin,designModeOnly" localizable="true" type="string">
+                <value>Deck 2</value>
+            </property>
+            <property name="child.2.title" viewHint="admin,designModeOnly" localizable="true" type="string">
+                <value>Deck 3</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+    </container>
+</catalog>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-user-identity-security-center-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>UserIdentitySecurityCenterWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Manage user security</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="notificationDismissTime" label="Notification dismiss time in seconds (defaults to 3)" viewHint="text-input,admin,designModeOnly" type="long">
+                <value>3</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.0.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

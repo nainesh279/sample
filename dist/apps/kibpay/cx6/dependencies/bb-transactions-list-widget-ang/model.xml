@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-transactions-list-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>TransactionsListWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>View transactions list</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="bb.transaction.pageSize" label="Number of history transaction records per page" viewHint="text-input,admin" type="string">
+                <value>10</value>
+            </property>
+            <property name="bb.transaction.maxNavPages" label="Max. number of navigation pages" viewHint="text-input,admin" type="string">
+                <value>3</value>
+            </property>
+            <property name="bb.transaction.paginationType" label="Pagination type" viewHint="select-one,admin" type="string">
+                <value>load-more</value>
+            </property>
+            <property name="bb.transaction.initialFilterOptions" label="Options to initialize the filter (format as query parameters)" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="bb.transaction.initialSortOptions" label="Options to initialize the sorting (e.g. &apos;amount ASC&apos; or empty)" viewHint="text-input,admin" type="string">
+                <value>bookingDate DESC</value>
+            </property>
+            <property name="bb.transaction.showControls" label="Show transactions control such as filter and search" viewHint="checkbox,admin" type="string">
+                <value>true</value>
+            </property>
+            <property name="bb.transaction.showChangeCategory" label="Enable change category" viewHint="checkbox,admin" type="string">
+                <value>true</value>
+            </property>
+            <property name="bb.transaction.showPendingTransactionsOnTop" label="Pending transactions on top and hides billing status filter" viewHint="checkbox,admin" type="string">
+                <value>false</value>
+            </property>
+            <property name="bb.transaction.showCheckImage" label="Set the value to true to display check images for applicable transactions with associated check images. Set the value to false to hide the check images and do not make additional call to retrieve them" viewHint="checkbox,admin" type="string">
+                <value>false</value>
+            </property>
+            <property name="bb.transaction.gmapsAPIKey" label="Google Maps API Key to Display Transaction Geolocation (deprecated)" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="input.googleAPIKey" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="event.refreshTransactionsList" label="Comma separated list of event names to subscribe to perform transactions refresh" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>8.0.1</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">transactions</tag>
+        </tags>
+    </widget>
+</catalog>

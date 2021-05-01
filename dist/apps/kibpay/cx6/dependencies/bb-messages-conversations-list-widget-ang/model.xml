@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-messages-conversations-list-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>MessagesConversationsListWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>View messages by the customer</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="itemsPerPage" label="Number of messages per page" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>10</value>
+            </property>
+            <property name="mailboxType" label="Conversations to show" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>inbox</value>
+            </property>
+            <property name="customerServiceTitle" label="title which should be replaced the name of the sender" viewHint="text-input,admin,designModeOnly" localizable="true" type="string">
+                <value>Customer Service</value>
+            </property>
+            <property name="createMessageOpenEventName" label="Generic tracker Compose Message Widget open modal event name" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>bb.event.messages.create.message.open</value>
+            </property>
+            <property name="createMessageClosedEventName" label="Generic tracker Compose Message Widget close modal event name" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>bb.event.messages.create.message.close</value>
+            </property>
+            <property name="output.conversationId" label="Selected Conversation Output" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>route-param conversationId</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.1.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">messages</tag>
+        </tags>
+    </widget>
+</catalog>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-top-metrics-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>TopMetricsWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>View top spending metrics</value>
+            </property>
+            <property label="Metric type" name="metricType" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>transactions</value>
+            </property>
+            <property name="showPeriodSelector" label="Show period selector" viewHint="checkbox,admin" type="string">
+                <value>true</value>
+            </property>
+            <property label="List limit" name="listLimit" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>5</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">PFM</tag>
+            <tag type="regular">capability</tag>
+        </tags>
+    </widget>
+</catalog>

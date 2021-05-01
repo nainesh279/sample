@@ -1,0 +1,13 @@
+<div class="payment-container">
+    <kp-kibpay-loader *ngIf="!isLoaded"></kp-kibpay-loader>
+    
+    <div class="main-container" *ngIf="isLoaded && !isDirectPayment" [ngClass]="{'full-height': !showSubmit}">
+        <kp-kibpay-logo></kp-kibpay-logo>
+        <kp-kibpay-payment [paymentInfo]="paymentInfo"></kp-kibpay-payment>
+    </div>
+
+    <div class="button-container" *ngIf="showSubmit">
+        <button bbbutton buttonsize="md" class="btn-primary btn-md btn m-t-16 pointer" type="button" (click)="acceptPayment()" [disabled]="(paymentInfo | json) === '{}'"> Continue to payment </button>
+        <button bbbutton buttonsize="md" class="btn-secondary btn-md btn btn m-t-16 m-b-16 pointer" type="button" (click)="rejectPayment()"> Reject payment request </button>
+    </div>
+</div>

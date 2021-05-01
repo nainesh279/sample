@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-self-enrollment-identification-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>SelfEnrollmentIdentificationWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Provide information for self-enrollment</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="lockedOutTitle" label="Locked out info title" localizable="true" viewHint="text-input,admin" type="string">
+                <value>Contact Us</value>
+            </property>
+            <property name="lockedOutMessage" label="Locked out info message" localizable="true" viewHint="text-input,admin" type="string">
+                <value>Call Us 404-555-0123 working days between 9:00 am and 5:30 pm. Find the branch nearest to you.</value>
+            </property>
+            <property name="output.complete" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="output.cancel" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.0.1</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

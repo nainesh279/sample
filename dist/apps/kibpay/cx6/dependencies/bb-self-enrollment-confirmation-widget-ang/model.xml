@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-self-enrollment-confirmation-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>SelfEnrollmentConfirmationWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>View self-enrollment confirmation message</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="appStoreURL" label="App Store URL" viewHint="text-input,admin" type="string">
+                <value>https://www.apple.com/ios/app-store/</value>
+            </property>
+            <property name="googlePlayURL" label="Google Play URL" viewHint="text-input,admin" type="string">
+                <value>https://play.google.com/store</value>
+            </property>
+            <property name="output.complete" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.0.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

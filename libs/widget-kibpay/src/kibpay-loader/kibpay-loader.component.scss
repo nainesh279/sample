@@ -1,0 +1,35 @@
+@import '../../../../apps/kibpay/src/assets/scss/1-helpers/variables';
+@import '../../../../apps/kibpay/src/assets/scss/1-helpers/mixins';
+
+.loader-container {
+    .loader {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -15px;
+        border: 5px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 5px solid $color-theme-blue;
+        width: 50px;
+        height: 50px;
+        -webkit-animation: spin 1s linear infinite;
+        -moz-animation: spin 1s linear infinite;
+        -o-animation: spin 1s linear infinite;
+        animation: spin 1s linear infinite;
+
+        @include breakpoint(xxs) {
+            margin-left: -25px;
+        }
+    }
+    
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+}

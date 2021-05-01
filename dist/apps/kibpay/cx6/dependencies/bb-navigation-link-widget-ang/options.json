@@ -1,0 +1,14 @@
+{
+  "options": {
+    "layoutType": [
+      {
+        "value": "horizontal",
+        "label": "Horizontal layout"
+      },
+      {
+        "value": "vertical",
+        "label": "Vertical layout"
+      }
+    ]
+  }
+}

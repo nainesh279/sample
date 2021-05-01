@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-places-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>PlacesWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin" type="string">
+                <value>Find branches and ATMs</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Angular Find branches and ATMs Widget</value>
+            </property>
+            <property label="API Key (deprecated)" name="apiKey" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="input.googleAPIKey" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property label="Default zoom value for a map" name="mapZoom" viewHint="text-input,admin" type="string">
+                <value>15</value>
+            </property>
+            <property label="Default latitude" name="latitude" viewHint="text-input,admin" type="string">
+                <value>52.3760992</value>
+            </property>
+            <property label="Default longitude" name="longitude" viewHint="text-input,admin" type="string">
+                <value>4.900779</value>
+            </property>
+            <property label="Radius in km to filter list view" name="placesFilterRadius" viewHint="text-input,admin" type="string">
+                <value>2</value>
+            </property>
+            <property label="Maximum amount of locations to display" name="limitList" viewHint="text-input,admin" type="string">
+                <value>500</value>
+            </property>
+            <property label="Measurement system" name="measurementSystem" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>metric</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>5.0.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <container>
+        <name>bb-column-container-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>ColumnContainerComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Column Container</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="child.amountToCreate" type="string">
+                <value>3</value>
+            </property>
+            <property name="child.extendedItemName" type="string">
+                <value>bb-panel-container-ang</value>
+            </property>
+            <property name="child.0.title" viewHint="admin,designModeOnly" type="string">
+                <value>Column 1</value>
+            </property>
+            <property name="child.1.title" viewHint="admin,designModeOnly" type="string">
+                <value>Column 2</value>
+            </property>
+            <property name="child.2.title" viewHint="admin,designModeOnly" type="string">
+                <value>Column 3</value>
+            </property>
+            <property name="child.columnClass" viewHint="admin,designModeOnly" type="string">
+                <value>col</value>
+            </property>
+            <property name="containerClasses" viewHint="admin,designModeOnly" type="string">
+                <value>container-fluid d-block</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+    </container>
+</catalog>

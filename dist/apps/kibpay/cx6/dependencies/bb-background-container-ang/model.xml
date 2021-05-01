@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <container>
+        <name>bb-background-container-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>BackgroundContainerComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Background Container</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Angular Background Container Widget</value>
+            </property>
+            <property name="cssClasses" label="CSS classes" viewHint="role=manager" type="string">
+                <value>d-block</value>
+            </property>
+            <property name="backgroundImageCollection" label="Background image collection" viewHint="role=manager,input=content-ref:BackgroundImageCollection,designModeOnly" type="contentRef">
+                <value></value>
+            </property>
+            <property name="feature.contenttype-background-image-collection" type="string">
+                <value>BackgroundImageCollection</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+    </container>
+</catalog>

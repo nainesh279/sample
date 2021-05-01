@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-billpay-manage-payment-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>BillpayManagePaymentWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Manage bill payments</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Bill Pay Manage Payment Widget WC3</value>
+            </property>
+            <property label="Mask account number" name="bb.billpay.managePayment.accountNumberMask" viewHint="checkbox,admin" type="string">
+                <value>true</value>
+            </property>
+            <property name="output.paymentConfirmed" viewHint="input=text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="output.paymentsList" viewHint="input=text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="notificationDismissTime" label="Notification dismiss time in seconds (defaults to 5)" viewHint="text-input,admin,designModeOnly" type="long">
+                <value>5</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

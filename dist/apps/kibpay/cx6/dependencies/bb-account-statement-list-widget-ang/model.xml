@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-account-statement-list-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>AccountStatementListWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>View and download retail account statements</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property label="Number of statements per page" name="bb.accountStatement.pageSize" viewHint="text-input,admin" type="string">
+                <value>24</value>
+            </property>
+            <property label="Show categories" name="bb.accountStatement.showCategory" viewHint="checkbox,admin" type="string">
+                <value>true</value>
+            </property>
+            <property label="Show description" name="bb.accountStatement.showDescription" viewHint="checkbox,admin" type="string">
+                <value>true</value>
+            </property>
+            <property label="Sorting order (date, description, category)" name="bb.accountStatement.sortingOrder" viewHint="text-input,admin" type="string">
+                <value>date</value>
+            </property>
+            <property label="Sorting direction (ASC, DESC)" name="bb.accountStatement.sortingDirection" viewHint="text-input,admin" type="string">
+                <value>DESC</value>
+            </property>
+            <property name="notificationDismissTime" label="Notification dismiss time in seconds (defaults to 5)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>5</value>
+            </property>
+            <property label="Relative filter datepicker limit (months)" name="bb.accountStatement.relativeDateLimit" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>0</value>
+            </property>
+            <property label="Absolute filter datepicker limit (yyyy-mm-dd)" name="bb.accountStatement.absoluteDateLimit" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.1.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

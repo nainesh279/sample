@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-quick-transfer-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>QuickTransferWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>QuickTransferWidget Widget</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Angular QuickTransferWidget Widget</value>
+            </property>
+            <property name="event.successEvents" label="Event to publish after transfer success" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>2.1.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

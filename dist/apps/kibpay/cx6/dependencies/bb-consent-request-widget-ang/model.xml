@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-consent-request-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>ConsentRequestWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Grant account info consent</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Angular ConsentRequestWidget Widget</value>
+            </property>
+            <property name="output.allowConsentRequestRedirectUrl" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="output.rejectConsentRequestRedirectUrl" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="multiAccountSelection" label="Account multi-selection " viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>false</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.0.1</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

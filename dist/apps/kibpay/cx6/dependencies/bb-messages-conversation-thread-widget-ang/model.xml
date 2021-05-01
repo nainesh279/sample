@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-messages-conversation-thread-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>MessagesConversationThreadWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>View conversation thread by the customer</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="replyMessageMaxLength" label="Maximum length for reply message input field" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>300</value>
+            </property>
+            <property name="maxAttachmentSize" label="Max. attachment size (megabytes)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>10</value>
+            </property>
+            <property name="mailboxTypeTitle" label="Title of the mailbox type which was navigated from" viewHint="text-input,admin,designModeOnly" localizable="true" type="string">
+                <value>Inbox</value>
+            </property>
+            <property name="customerServiceTitle" label="title which should be replaced the name of the sender" viewHint="text-input,admin,designModeOnly" localizable="true" type="string">
+                <value>Customer Service</value>
+            </property>
+            <property name="output.back" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="input.selectedConversationId" label="Selected Conversation Input" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>route-param conversationId</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.1.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">messages</tag>
+        </tags>
+    </widget>
+</catalog>

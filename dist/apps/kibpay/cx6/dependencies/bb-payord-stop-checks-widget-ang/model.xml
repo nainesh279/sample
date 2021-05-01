@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-payord-stop-checks-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>PayordStopChecksWidgetAngComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Create stop check payment requests</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Angular PayordStopChecksWidgetAng Widget</value>
+            </property>
+            <property name="resourceName" label="Access control resource" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="businessFunction" label="Access control business function" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="privilege" label="Access control privilege" viewHint="text-input,admin" type="string">
+                <value></value>
+            </property>
+            <property name="notificationDismissTime" label="Number of seconds to dismiss the notification" viewHint="text-input,manager" type="string">
+                <value>3</value>
+            </property>
+            <property name="currencies" label="Comma separated list of available currencies" viewHint="text-input,admin" type="string">
+                <value>USD</value>
+            </property>
+            <property name="checksRangeNumber" label="Number of check number range beyond which user cannot input (0 - no limit)" viewHint="text-input,manager" type="string">
+                <value>0</value>
+            </property>
+            <property name="output.navigateOnSubmit" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>2.0.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <container>
+        <name>bb-billpay-guard-container-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>BillpayGuardContainerComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Guard bill pay enrollment</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Billpay Guard Container Widget WC3</value>
+            </property>
+            <property name="outletName" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="disableDefault" label="Disable default route" type="string">
+                <value>false</value>
+            </property>
+            <property name="enrolmentRoute" label="route to enrolment slide" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>enrolment</value>
+            </property>
+            <property name="output.goToEnrolment" label="Go to enrolment" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+    </container>
+</catalog>

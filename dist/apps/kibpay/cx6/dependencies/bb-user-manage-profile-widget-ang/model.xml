@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-user-manage-profile-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>UserManageProfileWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Manage user profile</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="notificationDismissTime" label="Notification dismiss time in seconds (defaults to 3)" viewHint="text-input,admin,designModeOnly" type="long">
+                <value>3</value>
+            </property>
+            <property name="emailAddressTypes" label="Email Address Types" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>Personal, Work</value>
+            </property>
+            <property name="postalAddressTypes" label="Postal Address Types" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>Home, Business, Mailing</value>
+            </property>
+            <property name="phoneNumberTypes" label="Phone Number Types" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>Home, Work, Mobile</value>
+            </property>
+            <property name="maxEmailAddresses" label="Maximum Number of Email Addresses (defaults to 3)" viewHint="text-input,admin,designModeOnly" type="double">
+                <value>3</value>
+            </property>
+            <property name="maxPhoneNumbers" label="Maximum Number of Phone Numbers (defaults to 3)" viewHint="text-input,admin,designModeOnly" type="double">
+                <value>3</value>
+            </property>
+            <property name="maxPostalAddresses" label="Maximum Number of Postal Addresses (defaults to 3)" viewHint="text-input,admin,designModeOnly" type="double">
+                <value>3</value>
+            </property>
+            <property name="phoneNumberCountryCode" label="Two Digit Country Code for Phone Numbers (defaults to CA)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>CA</value>
+            </property>
+            <property name="phoneNumberDebounceTime" label="Debounce time for phone number input in seconds (defaults to 1)" viewHint="text-input,admin,designModeOnly" type="long">
+                <value>1</value>
+            </property>
+            <property name="enablePhoneNumberFormatter" label="Format phone numbers (defaults to true)" viewHint="checkbox,admin,designModeOnly" type="boolean">
+                <value>true</value>
+            </property>
+            <property name="showWidgetHeader" label="Show a header at the top of the widget (defaults to true)" viewHint="checkbox,admin,designModeOnly" type="boolean">
+                <value>true</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

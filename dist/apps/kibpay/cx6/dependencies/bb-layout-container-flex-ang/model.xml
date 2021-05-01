@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <container>
+        <name>bb-layout-container-flex-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>LayoutContainerComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Universal Layout Container</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="viewType" label="Default view preset" viewHint="select-one,user,designModeOnly" type="string">
+                <value>PageLayout</value>
+            </property>
+            <property name="sidebarColumnClasses" label="Sidebar column CSS classes" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="contentColumnClasses" label="Content column CSS classes" viewHint="text-input,admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="layoutType" label="Layout type" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>fluid</value>
+            </property>
+            <property name="contentLayout" label="Content Layout" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>single</value>
+            </property>
+            <property name="showHeaderSection" label="Show Header Section" viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>true</value>
+            </property>
+            <property name="navigationType" label="Navigation type" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>vertical</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="child.amountToCreate" type="string">
+                <value>5</value>
+            </property>
+            <property name="child.extendedItemName" type="string">
+                <value>bb-panel-container-ang</value>
+            </property>
+            <property name="child.0.title" viewHint="admin,designModeOnly" type="string">
+                <value>Branding Area</value>
+            </property>
+            <property name="child.1.title" viewHint="admin,designModeOnly" type="string">
+                <value>Right Topbar Area</value>
+            </property>
+            <property name="child.2.title" viewHint="admin,designModeOnly" type="string">
+                <value>Navigation Area</value>
+            </property>
+            <property name="child.3.title" viewHint="admin,designModeOnly" type="string">
+                <value>Header Area</value>
+            </property>
+            <property name="child.4.title" viewHint="admin,designModeOnly" type="string">
+                <value>Main Content Area</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>4.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">universal</tag>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">universal-angular</tag>
+            <tag type="regular">ang</tag>
+            <tag type="regular">layout-container</tag>
+        </tags>
+    </container>
+</catalog>

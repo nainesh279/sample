@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-messages-create-message-modal-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>MessagesCreateMessageModalWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Compose message by the customer</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="maxSubjectLength" label="Max. subject length" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>100</value>
+            </property>
+            <property name="maxMessageLength" label="Max. message length" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>300</value>
+            </property>
+            <property name="maxAttachmentSize" label="Max. attachment size (megabytes)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>10</value>
+            </property>
+            <property name="modalHeader" label="Modal header title text" viewHint="text-input,admin,designModeOnly" localizable="true" type="string">
+                <value>New message</value>
+            </property>
+            <property name="hideComposeButton" label="Hide compose button" viewHint="checkbox,admin,designModeOnly" type="string">
+                <value>false</value>
+            </property>
+            <property name="createMessageOpenEventName" label="Generic tracker widget open modal event name" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>bb.event.messages.create.message.open</value>
+            </property>
+            <property name="createMessageClosedEventName" label="Generic tracker widget close modal event name" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>bb.event.messages.create.message.close</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.1.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

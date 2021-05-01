@@ -1,0 +1,19 @@
+<catalog>
+    <contenttype>
+        <name>BackgroundImageCollection</name>
+        <properties>
+            <property label="Title" name="title" manageable="true">
+                <value type="string">Background Image Collection</value>
+            </property>
+            <property name="typeDefinitionName" manageable="true">
+                <value type="string">BackgroundImageCollection</value>
+            </property>
+            <property name="src" manageable="true">
+                <value type="string">$(itemRoot)/assets/background-image-collection.json</value>
+            </property>
+        </properties>
+        <tags>
+            <tag blacklist="false" manageable="true" type="regular">structuredcontent</tag>
+        </tags>
+    </contenttype>
+</catalog>

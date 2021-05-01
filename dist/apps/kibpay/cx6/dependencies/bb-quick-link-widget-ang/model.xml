@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-quick-link-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>QuickLinkWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>quick link Widget WC3</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property label="Custom classes" name="customClassName" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>px-0 pt-0 pb-2</value>
+            </property>
+            <property label="Icon Name" name="iconName" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>settings</value>
+            </property>
+            <property label="Link title" name="linkTitle" localizable="true" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>Link Title</value>
+            </property>
+            <property label="Link type" name="linkType" viewHint="select-one,admin,designModeOnly" type="string">
+                <value>internal</value>
+            </property>
+            <property name="output.linkAction" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property label="External URL" name="externalURL" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>https://community.backbase.com</value>
+            </property>
+            <property name="options" type="string">
+                <value>$(itemRoot)/options.json</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.1.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

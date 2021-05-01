@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-actions-product-notifications-settings-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>ActionsProductNotificationsSettingsWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Manage retail product notification preferences</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="label" type="string">
+                <value>Manage retail product notification preferences</value>
+            </property>
+            <property name="output.productNotificationsSettingsSaved" viewHint="input=text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="output.productNotificationsSettingsCancelled" viewHint="input=text-input,admin,designModeOnly" type="string">
+                <value>navigation:</value>
+            </property>
+            <property name="notificationDismissTime" label="Notification dismiss time in seconds (defaults to 5)" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>5</value>
+            </property>
+            <property name="input.selectedAccountId" label="Selected Account Id Input" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>route-param</value>
+            </property>
+            <property name="specificationIDs" label="Comma separated specification IDs to process" viewHint="text-input,admin,designModeOnly" type="string">
+                <value>4, 1</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.2.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

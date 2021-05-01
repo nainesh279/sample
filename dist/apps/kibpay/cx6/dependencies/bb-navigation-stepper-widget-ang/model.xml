@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-navigation-stepper-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>NavigationStepperWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Navigation Stepper Widget WC3</value>
+            </property>
+            <property name="sourceRoutesName" label="Routes source name" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value></value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>3.0.0</value>
+            </property>
+        </properties>
+    </widget>
+</catalog>

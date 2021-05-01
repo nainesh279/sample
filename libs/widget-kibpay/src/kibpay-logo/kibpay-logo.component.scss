@@ -1,0 +1,18 @@
+@import '../../../../apps/kibpay/src/assets/scss/1-helpers/mixins';
+
+.logo-container {
+    display: block;
+    padding-top: 68px;
+
+    @include breakpoint(md, portrait) {
+        padding-top: 98px;
+    }
+
+    .logo {
+        width: 116px;
+        height: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

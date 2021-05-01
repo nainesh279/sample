@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <widget>
+        <name>bb-card-details-widget-ang</name>
+        <properties>
+            <property name="classId" type="string">
+                <value>CardDetailsWidgetComponent</value>
+            </property>
+            <property name="src" type="string">
+                <value>$(itemRoot)/index.html</value>
+            </property>
+            <property name="render.requires" type="string">
+                <value>render-bb-widget-3</value>
+            </property>
+            <property name="title" label="Title" readonly="true" viewHint="admin,designModeOnly" type="string">
+                <value>Manage cards</value>
+            </property>
+            <property name="thumbnailUrl" type="string">
+                <value>$(itemRoot)/icon.png</value>
+            </property>
+            <property name="notificationTtl" label="Notification messages timeout" viewHint="text-input,admin" type="string">
+                <value>5000</value>
+            </property>
+            <property name="version" type="string" readonly="true">
+                <value>5.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="regular">wc3</tag>
+            <tag type="regular">cards</tag>
+        </tags>
+    </widget>
+</catalog>
